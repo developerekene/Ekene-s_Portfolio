@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dcdcdc;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.my-nav {
+    /* background-color: white; */
+    /* background-image: linear-gradient(to right, darkblue, purple); */
+    /* background-color: none; */
+    color: darkblue;
+}
+
+.my-nav1 {
+    background-image: linear-gradient(to right, darkblue, purple);
+    height: 100px;
+}
+
+.banner{
+    /* background-image: linear-gradient(to right, darkblue, purple); */
+    background-color: #000000;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 60px 0 0 0;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col-md-7 h1:hover{
+    /* font-size: 40px; */
+    /* transition: 0s; */
+    font-weight: bold;
+}
+
+.nav-top{
+    color: white;
+}
+
+.wrapper {
+    /* background-color: white; */
+    /* background-image: linear-gradient(to right, darkblue, purple); */
+    background-image: url(imgs/linkedinimage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    height: 900px;
+    width: 100%;
+
+}
+
+.wrapper1{
+    background-color: white;
+}
+
+.wrapper1 .container .me{
+    margin-top: -195px;
+    background-color: white;
+    height: 530px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.col-md-4{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-h1{
+    color: #000000;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.text-h1-1{
+    color: #9F2B68;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.text-h3{
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.qual-li{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.text-p{
+    color: black;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    margin-top: 23px;
+    color: darkgoldenrod;
+    /* background-color: none; */
+    /* background-image: linear-gradient(to right, darkblue, purple); */
+    padding: 10px;
+}
+
+.con{
+     
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 190px; 
+    padding: 10px; 
+    color: black; 
+    font-weight: bold;
+}
+
+.col-md-3 p{
+    padding-top: 8px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    /* background-color: white; */
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.con:hover{
+    /* height: 200px; */
+    /* transition: 1.5s; */
+}
+
+.h6{
+    text-align: center;
+    color: purple;
+    font-size: 4px;
+    padding-bottom: 10px;
+}
+
+.leftsidediv{
+    position: absolute; 
+    width: 150px; 
+    height: 200px; 
+    top: 30%; 
+    border-top-right-radius: 90%; 
+    border-bottom-right-radius: 90%; 
+    padding-top: 80px; 
+    padding-left: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.leftsidediv a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.col-md-4 a{
+    color: darkblue;
+    padding-right: 8px;
+}
+
+.btn:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+}
+
+.innermaindiv {
+    opacity: 0.9; 
+    width: 70%; 
+    margin-top: 550px; 
+    height: auto; 
+    margin: 0 auto; 
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    /* background-color: green; */
+  }
+
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .innermaindiv {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: blue;
+    }
+
+    .leftsidediv{
+        display: none;
+    }
+  }
+
+  /* @media only screen and (max-width: 1200px) {
+    .innermaindiv {
+      width: 80%;
+    }
+  } */
